@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="event6&7.js" defer></script>
+    <title>Document</title>
+    <style>
+        *{
+            transition: all 0.3s;
+        }
+        marquee{
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+        }
+        img{
+            width: 200px;
+        }
+    </style>
+</head>
+<body onmousedown="jump()" onmouseup="notjump()">
+    <marquee direction="right" scrollamount="20" id="cyc">
+        <img src="./../../asset/gif/63be5303c6703db9a36489936aed77f0.gif">
+    </marquee>
+</body>
+</html>

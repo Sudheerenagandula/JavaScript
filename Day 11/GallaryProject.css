@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    transition: all 0.5s;
+}
+#maindiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+}
+#firstdiv{
+    background-image:linear-gradient(90deg,rgba(199, 97, 114,0.5),transparent,paleturquoise);
+    width:65vw;
+    height: 100vh;
+    overflow: hidden;
+}   
+#image{
+    width:45vw;
+    height:60vh;
+    position: relative;
+    left:100px;
+    top: 130px;
+    border-radius: 20px;
+}
+#secdiv,#thidiv{
+    background-color:thistle;
+    width: 25vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#thidiv{
+    background-color:bisque;
+}
+input{
+    width:18vw;
+    position: relative;
+    left: 20px;
+}
+.filtercontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+}

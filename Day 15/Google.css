@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fd{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+#inp{
+    width: 95%;
+    height: 70%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    background-color: transparent;
+}

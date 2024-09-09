@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./parrot_assignment.css">
+    <script src="./parrot_assignment.js" defer></script>
+</head>
+<body>
+    <div id="gallaryimageedit">
+        <div id="imagecontainer">
+                 <img id="image" src="./../../asset/images/parrot.jpg" alt="">
+          </div>
+
+          <div id="editcontainer">
+        <div id="editfilter">
+            <h2>FILTER EDIT</h2>
+                <div class="filtercontainer">
+                    <label for="blur">Blue</label>
+                    <input type="range" id="blur" min="0" max="300" value="0" oninput="imageEdit()">
+                </div>
+                <div class="filtercontainer">
+                    <label for="brightness">Brightness</label>
+                    <input type="range" id="brightness" min="0" max="200" value="300" oninput="imageEdit()">
+                </div>
+                <div class="filtercontainer">
+                    <label for="contrast">Contrast</label>
+                    <input type="range" id="contrast" min="0" max="500" value="100" oninput="imageEdit()">
+                </div>
+                <div class="filtercontainer">
+                    <label for="grayscale">GrayScale</label>
+                    <input type="range" id="grayscale" min="0" max="100" value="0" oninput="imageEdit()">
+                </div>
+                <div class="filtercontainer">
+                    <label for="hue-rotate">Hue-rotate</label>
+                    <input type="range" id="hue-rotate" min="0" max="360" value="0" oninput="imageEdit()">
+                </div>
+                <div class="filtercontainer">
+                    <label for="invert">Invert</label>
+                    <input type="range" id="invert" min="0" max="100" value="0" oninput="imageEdit()">
+                </div>
+                <div class="filtercontainer">
+                    <label for="opacity">Opacity</label>
+                    <input type="range" id="opacity" min="0" max="100" value="100" oninput="imageEdit()">
+                </div>
+                <div class="filtercontainer">
+                    <label for="saturate">Saturate</label>
+                    <input type="range" id="saturate" min="0" max="100" value="100" oninput="imageEdit()">
+                </div>
+                <div class="filtercontainer">
+                    <label for="sepia">Sepia</label>
+                    <input type="range" id="sepia" min="0" max="100" value="0" oninput="imageEdit()">
+                </div>
+        </div>
+
+
+           <div id="edittransform">
+             <h2>TRANSFORM EDIT</h2>
+                <div class="filtercontainer">
+                    <label for="rotate">Rotate</label>
+                    <input type="range" id="rotate" min="0" max="360" value="0" oninput="imageEdit()">
+                </div>
+                <div class="filtercontainer">
+                    <label for="rotateX">RotateX</label>
+                    <input type="range" id="rotateX" min="0" max="360" value="0" oninput="imageEdit()">
+                </div>
+                <div class="filtercontainer">
+                    <label for="rotateY">RotateY</label>
+                    <input type="range" id="rotateY" min="0" max="360" value="0" oninput="imageEdit()">
+                </div>
+                <div class="filtercontainer">
+                    <label for="scaleX">scaleX</label>
+                    <input type="range" id="scaleX" min="0" max="3" value="1" oninput="imageEdit()">
+                </div>
+                <div class="filtercontainer">
+                    <label for="scaleY">ScaleY</label>
+                    <input type="range" id="scaleY" min="0" max="3" value="1" oninput="imageEdit()">
+                </div>
+                <div class="filtercontainer">
+                    <label for="skewX">SkewX</label>
+                    <input type="range" id="skewX" min="0" max="360" value="0" oninput="imageEdit()">
+                </div>
+                <div class="filtercontainer">
+                    <label for="skewY">SkewY</label>
+                    <input type="range" id="skewY" min="0" max="360" value="0" oninput="imageEdit()">
+                </div>
+                <div class="filtercontainer">
+                    <label for="translateX">TranslateX</label>
+                    <input type="range" id="translateX" min="0" max="360" value="0" oninput="imageEdit()">
+                </div>
+                <div class="filtercontainer">
+                    <label for="translateY">TranslateY</label>
+                    <input type="range" id="translateY" min="0" max="360" value="0" oninput="imageEdit()">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

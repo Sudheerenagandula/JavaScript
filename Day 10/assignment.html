@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./assignment.js"></script>
+</head>
+<body>
+    <table style="border: 2px solid black; border-collapse: collapse;">
+        <tr>
+            <td style="border: 2px solid black;">
+            <input type="text" placeholder="FIRSTNAME" id="name">
+            <input type="text" placeholder="LASTNAME" id="name1">
+            </td>
+        </tr>
+        <tr>
+            <th style="border: 2px solid black;" colspan="2">
+                <input type="email" id="name2">
+            </th>
+        </tr>
+        <tr>
+            <th style="border: 2px solid black;" colspan="2">
+                <input type="number" id="name3">
+            </th>
+        </tr>
+        <tr>
+            <th style="border: 2px solid black;" colspan="2">
+                <label>GENDER</label>
+            </th>
+        </tr>
+        <tr>
+            <th style="border: 2px solid black;" colspan="2">
+                <label>MALE</label>
+                <input type="radio" name="GENDER" id="name4" onclick="gender('male')">
+                <label>FEMALE</label>
+                <input type="radio" name="GENDER" id="name4" onclick="gender('female')">
+                <label>OTHER</label>
+                <input type="radio" name="GENDER" id="name4" onclick="gender('other')">
+            </th>
+        </tr>
+        <tr>
+            <th style="border: 2px solid black;" colspan="2">
+                <input type="button" value="LOGIN" onclick="collectvalue()">
+            </th>
+        </tr>
+    </table>
+    <br><br><br>
+
+    <table style="border: 2px solid black; border-collapse: collapse;">
+        <tr style="border: 2px solid black;">
+        <td style="border: 2px solid black;">FIRSTNAME
+        </td>
+        <td style="border: 2px solid black;" id="print"></td>
+        </tr>
+        <tr style="border: 2px solid black;">
+            <td style="border: 2px solid black;">LASTNAME
+            </td>
+            <td style="border: 2px solid black;" id="print1"></td>
+        </tr>
+        <tr style="border: 2px solid black;">
+            <td style="border: 2px solid black;">EMAIL
+            </td>
+            <td style="border: 2px solid black;" id="print2"></td>
+        </tr>
+        <tr style="border: 2px solid black;">
+            <td style="border: 2px solid black;">PHON.NO
+            </td>
+            <td style="border: 2px solid black;" id="print3"></td>
+        </tr>
+        <tr style="border: 2px solid black;">
+            <td style="border: 2px solid black;">
+                GENDER
+            </td>
+            <td style="border: 2px solid black;" id="print4">
+
+            </td>
+        </tr>
+        <tr style="border: 2px solid black;">
+            <th style="border: 2px solid black;" colspan="2">
+                <input type="button" value="ANKIT" onclick="collectvalue()">
+            </th>
+        </tr>
+    </table>
+</body>
+</html>
